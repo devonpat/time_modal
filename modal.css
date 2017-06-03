@@ -1,0 +1,76 @@
+/* side nav menu */
+.sidenav {
+    height: 70%; 
+    width: 0; 
+    position: fixed; 
+    margin-top: 120px; 
+    top: 0;
+    left: 0;
+    background-color: lightblue; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 1s;
+}
+
+/* side nav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 35px;
+    color: Black;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+#menu {
+    font-size: 35px;
+}
+
+.gallery-homes {
+    float: left;
+    margin-top: 45px;
+    margin-left: 300px;
+    border: 10px solid #ccc;
+    width: 450px;
+}
+
+.gallery-homes:hover {
+    border: 10px solid #777;
+}
+
+.gallery-homes2 {
+    float: left;
+    margin-top: 45px;
+    margin-left: 100px;
+    border: 10px solid #ccc;
+    width: 450px;
+}
+
+.gallery-homes2:hover {
+    border: 10px solid #777;
+}
+
+#top {
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    padding: 20px;
+    background-color: green;
+}
