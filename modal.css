@@ -1,33 +1,31 @@
-/* The side navigation menu */
+/* side nav menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    height: 70%; 
+    width: 0; 
+    position: fixed; 
+    margin-top: 120px; 
     top: 0;
     left: 0;
-    background-color: lightblue; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 1s; /* 0.5 second transition effect to slide in the sidenav */
+    background-color: lightblue; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 1s;
 }
 
-/* The navigation menu links */
+/* side nav menu links */
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: Black;
     display: block;
     transition: 0.3s
 }
 
-/* When you mouse over the navigation links, change their color */
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
 
-/* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -36,8 +34,43 @@
     margin-left: 50px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
     padding: 20px;
+}
+
+#menu {
+    font-size: 35px;
+}
+
+.gallery-homes {
+    float: left;
+    margin-top: 45px;
+    margin-left: 300px;
+    border: 10px solid #ccc;
+    width: 450px;
+}
+
+.gallery-homes:hover {
+    border: 10px solid #777;
+}
+
+.gallery-homes2 {
+    float: left;
+    margin-top: 45px;
+    margin-left: 100px;
+    border: 10px solid #ccc;
+    width: 450px;
+}
+
+.gallery-homes2:hover {
+    border: 10px solid #777;
+}
+
+#top {
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    padding: 20px;
+    background-color: green;
 }
